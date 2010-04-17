@@ -15,6 +15,7 @@ Extra-Source-Files:
   configure.ac
   include/private.h
   include/tzfile.h
+  README
   Tests.hs
   tzinstall.sh
   zoneinfo.buildinfo.in
