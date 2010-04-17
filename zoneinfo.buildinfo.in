@@ -1,0 +1,2 @@
+buildable: @BUILD_PACKAGE_BOOL@
+cc-options: @TM_GMTOFF@ @TM_ZONE@
