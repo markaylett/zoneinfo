@@ -21,7 +21,7 @@ Extra-Source-Files:
   zoneinfo.buildinfo.in
 
 Library
-  Build-Depends: base <= 4.0, time
+  Build-Depends: base, time
   Exposed-Modules:
     Data.Time.ZoneInfo
   Extensions: EmptyDataDecls, ForeignFunctionInterface

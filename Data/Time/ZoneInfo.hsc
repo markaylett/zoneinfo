@@ -3,6 +3,7 @@
 
 module Data.Time.ZoneInfo (
     Context,
+    OlsonZone,
     ZoneInfo (..),
     newContext,
     newOlsonZone,
@@ -17,8 +18,10 @@ import Data.Time.Clock
 import Data.Time.Clock.POSIX
 import Data.Time.LocalTime
 
+import System.IO.Unsafe
 import Foreign
 import Foreign.C
+import Foreign.ForeignPtr.Unsafe
 
 data CContext
 data CZoneInfo
